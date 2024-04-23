@@ -4,7 +4,8 @@ from datetime import date, datetime
 import numpy as np
 from dateutil import relativedelta
 import json
-engine = create_engine("postgresql+psycopg2://postgres:Mqhe23@localhost/msipa")
+# engine = create_engine("postgresql+psycopg2://postgres:Mqhe23@localhost/msipa")
+engine = create_engine("postgresql+psycopg2://kara_msipa_user:8AQ4pNSADbGrfHaHs7wt6bjnV8DAIKX0@dpg-cojhi86d3nmc73bqvts0-a.oregon-postgres.render.com/kara_msipa")
 Session = sessionmaker(bind=engine)
 session = Session()
 Base = declarative_base()
