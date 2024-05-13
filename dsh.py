@@ -208,8 +208,6 @@ def update_graphs(accp,rows, derived_virtual_selected_rows,
     return donta
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
 
 
 @app.callback(Output('tbl', 'page_size'), 
